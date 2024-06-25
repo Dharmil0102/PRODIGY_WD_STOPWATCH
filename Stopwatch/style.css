@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    background-color: gray;
+    color:#ffffff
+}
+#reset{
+    background-color: blue;
+    color:#ffffff
+}
+#reset:hover{
+    background-color: rgb(2, 33, 91);
+}
+#lap{
+    background-color: purple;
+    color:#ffffff
+}
+#lap:hover{
+    background-color: rgb(255, 4, 255);
+    color:#ffffff
+}
+#startStop:hover {
+    background-color: #11ff00;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
